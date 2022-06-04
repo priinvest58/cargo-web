@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="priApp">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>FastWay | Track</title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body class="hidden-bar-wrapper" ng-controller="MainController">
+
+    <div class="page-wrapper">
+
+        <!-- Preloader -->
+        <div class="preloader"></div>
+        <!-- Main Header / Header Style Two -->
+        <header class="main-header header-style-two">
+            <div class="auto-container">
+                <div class="header-inner">
+                    <!--Header Top-->
+                    <div class="header-top">
+                        <div class="clearfix">
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!--Header-Upper-->
+                    <div class="header-upper">
+
+                        <div class="clearfix">
+
+                            <div class="pull-left logo-box">
+                                <div class="logo">
+                                    <a href="index.html"><img src="assets/logo2.png" alt="" title=""></a>
+                                </div>
+                            </div>
+
+                            <div class="pull-right upper-right">
+
+                                <!--Header Lower-->
+                                <div class="header-lower">
+
+
+                                    <div class="nav-outer clearfix">
+                                        <!-- Main Menu -->
+                                        <nav class="main-menu navbar-expand-md">
+                                            <div class="navbar-header">
+                                                <!-- Toggle Button -->
+                                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+                                            </div>
+
+                                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                                                <ul class="navigation clearfix">
+                                                    <li class="current "><a href="./index.html">Home </a>
+
+                                                    </li>
+                                                    <li><a href="services.html">Services</a></li>
+                                                    <li class=""><a href="fleet.html">Our Fleet </a></li>
+
+                                                    <li>
+                                                        <a href="quote.html">Get Quote</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="about.html">About us</a>
+                                                    </li>
+
+                                                    <li><a href="contact.html">Contact us</a></li>
+                                                </ul>
+                                            </div>
+                                        </nav>
+
+                                        <!-- Main Menu End-->
+
+                                    </div>
+
+                                </div>
+                                <!--End Header Lower-->
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!--End Header Upper-->
+                </div>
+            </div>
+
+            <!--Sticky Header-->
+            <div class="sticky-header">
+                <div class="auto-container clearfix">
+                    <!--Logo-->
+                    <div class="logo pull-left">
+                        <a href="index.html" class="img-responsive"><img src="assets/logo2.png" alt="" title=""></a>
+                    </div>
+
+                    <!--Right Col-->
+                    <div class="right-col pull-right">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                            <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent1">
+                                <ul class="navigation clearfix">
+                                    <li class="current "><a href="./index.html">Home </a>
+
+                                    </li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li class="dropdown"><a href="#">Tools<i class="fa fa-angle-down"></i></a>
+                                        <ul>
+                                            <li><a href="track.html">Track</a></li>
+                                            <li><a href="blog.html">Courier Locator</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <a href="quote.html">Franchising</a>
+                                    </li>
+                                    <li>
+                                        <a href="about.html">About us</a>
+                                    </li>
+
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+                    </div>
+                </div>
+            </div>
+            <!--End Sticky Header-->
+
+        </header>
+        <!--End Main Header -->
+
+
+
+        <!--Page Title-->
+        <section class="page-title" style="background-image:url(images/background/12.jpg);">
+            <div class="auto-container">
+                <h2> Parcel tracker </h2>
+                <div class="separater"></div>
+            </div>
+        </section>
+
+        <!--Breadcrumb-->
+        <div class="breadcrumb-outer">
+            <div class="auto-container">
+                <ul class="bread-crumb text-center">
+                    <li><a href="index.html">Home</a> <span>/</span></li>
+                    <li>Parcel tracker</li>
+                </ul>
+            </div>
+        </div>
+        <!--End Page Title-->
+
+        <!--Sidebar Page Container-->
+        <div class="sidebar-page-container">
+            <div class="auto-container">
+                <div class="row clearfix">
+
+                    <!--Content Side-->
+                    <div class="content-side col-lg-12 col-md-12 col-sm-12">
+                        <div class="track-section" style="margin-top: -80PX;">
+                            <!-- Track Form -->
+                            <div class="track-form-two">
+                                <form method="post">
+                                    <div class="form-group">
+                                        <label>Enter Tracking Number Here</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="text" placeholder="Enter Tracking Number" id="trackID" ng-model="trackingNumber">
+                                        <button type="button" class="theme-btn submit-btn" ng-click="searchParcel()">Track</button>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class=" col-lg-12 col-md-12 col-sm-12">
+
+                        <div class="row" ng-show="isLoading">
+                            <div class="col-md-12">
+                                <h2 class="text-center">
+                                    <img src="./assets/load.gif" class="img img-responsive" alt="" width="120px"> Searching..
+                                </h2>
+                            </div>
+                        </div>
+
+                        <div class="row" ng-show="!isLoading && !isFound">
+                            <div class="col-md-12">
+                                <h2 class="text-center">
+                                    Sorry the tracking number is invalid.
+                                </h2>
+                            </div>
+                        </div>
+
+
+                        <div class="row" ng-show="!isLoading  && isFound">
+                            <div class="col-md-12">
+                                <h4 class="mb-4" style="background-color: #000;  color: white; padding: 5px;"> <b>Tracking Number:</b> {{trackingNumber}}</h4>
+
+                                <h5> Schedule Delivery {{parcel.deliveryDate}}</h5>
+                                <h4 style="background-color: #000;  color: white; padding: 5px;">Status: {{parcel.status}}</h4>
+                                <img src="./assets/pp.jpg" alt="">
+
+
+
+
+                                <div style="background-color: gray; color: white; padding: 10px;">
+                                    <h4>From: {{parcel.from}}</h4>
+                                    <br>
+                                    <h4>To: {{parcel.to}}</h4>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class=" col-md-12 ">
+
+                                <h2 class="text-center mt-3 mb-3">Tracking Details</h2>
+
+
+                                <table class="table table-stripped table-dark ">
+                                    <thead>
+                                        <tr>
+                                            <th>Item Detail</th>
+                                            <th> {{parcel.itemDetails}}</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Sender name</th>
+                                            <th>{{parcel.senderName}}</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Receiver name</th>
+                                            <th>{{parcel.receiverName}}</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Receiver Phone Number</th>
+                                            <th>{{parcel.receiverName}}</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Weight</th>
+                                            <th>{{parcel.weight}}</th>
+                                        </tr>
+                                        <tr>
+                                            <th>Additional Information:</th>
+                                            <th>{{parcel.addInfo}}</th>
+                                        </tr>
+                                    </thead>
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!--Main Footer-->
+        <footer class="main-footer style-three " style="background-image:url(images/background/7.png) ">
+            <div class="auto-container ">
+                <!--Widgets Section-->
+                <div class="widgets-section ">
+                    <div class="row clearfix ">
+
+                        <!--Column-->
+                        <div class="big-column col-lg-6 col-md-12 col-sm-12 ">
+                            <div class="row clearfix ">
+
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom ">
+                <div class="copyright "> &copy; 2022 / ALL RIGHTS RESERVED</div>
+            </div>
+
+        </footer>
+
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target " data-target="html "><span class="fa fa-arrow-up "></span></div>
+
+    <script src="js/jquery.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js "></script>
+    <script src="js/jquery.fancybox.js "></script>
+    <script src="js/appear.js "></script>
+    <script src="js/owl.js "></script>
+    <script src="js/wow.js "></script>
+    <script src="js/jquery-ui.js "></script>
+    <script src="js/script.js "></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js "></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js "></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-storage.js "></script>
+
+    <script src="./lib/angular.min.js "></script>
+    <script src="./lib/moment.min.js "></script>
+    <script src="./lib/angular-moment.min.js "></script>
+
+    <script>
+        $(function() {
+            var trackID = localStorage.getItem("trackid");
+
+            $("#trackID").val(trackID);
+        });
+    </script>
+
+
+    <script src="./js/app.js "></script>
+
+
+
+</body>
+
+
+</html>
+
+</html>
